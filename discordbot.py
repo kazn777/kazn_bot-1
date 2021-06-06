@@ -21,15 +21,6 @@ async def ping(ctx):
 @bot.command()
 async def csm(ctx):
     await ctx.send('Choco stupid mountain')
-
-@client.event
-async def on_message(message):
-    # メッセージ送信者がBotだった場合は無視する
-    if message.author.bot:
-        return
-    # 「/neko」と発言したら「にゃーん」が返る処理
-    if message.content == '/csm':
-        await message.channel.send('Choco stupid mountain')
     
     
 bot.run(token)
