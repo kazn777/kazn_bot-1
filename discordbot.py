@@ -17,5 +17,8 @@ async def on_command_error(ctx, error):
 async def csm(ctx):
     await ctx.send('https://clips.twitch.tv/GoodReliableArmadilloDoggo-QAW30SL4Rrgfkdrl')
 
+@bot.command()
+async def csm(ctx):
+    await ctx.send('Choco stupid Mountain')
 
 bot.run(token)
