@@ -17,9 +17,9 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def csm(ctx):
+async def sm(ctx):
     embed = discord.Embed(title="choco stupid mountain",description="",url = "https://clips.twitch.tv/GoodReliableArmadilloDoggo-QAW30SL4Rrgfkdrl",color=0xff0000)
-    embed.add_field(name="choco stupid mountain(long_ver)",value="",url = "https://clips.twitch.tv/DeadNaiveTurnipLeeroyJenkins-oe9egb9VAYg4jzGg")
+    
     await ctx.send(embed=embed)
 
 bot.run(token)
