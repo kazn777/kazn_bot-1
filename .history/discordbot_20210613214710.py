@@ -1,6 +1,4 @@
 import discord
-from discord.ext import commands
-from discord.ext.commands import Bot
 import os
 import traceback
 
@@ -20,5 +18,5 @@ async def on_command_error(ctx, error):
 async def csm(ctx):
     # await ctx.send('【Choco stupid Mountain】 https://clips.twitch.tv/GoodReliableArmadilloDoggo-QAW30SL4Rrgfkdrl')
     embed = discord.Embed(title="choco stupid mountain",description="choco stupid mountain")
-    await bot.send(embed=embed)
+    await channel.send(embed=embed)
 bot.run(token)
