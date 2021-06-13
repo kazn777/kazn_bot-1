@@ -24,7 +24,7 @@ async def csm(ctx):
 
 @bot.command()
 async def csmcsm(ctx):
-    embed = discord.Embed(title="choco stupid mountain",description="choco stupid mountain",url = "https://clips.twitch.tv/GoodReliableArmadilloDoggo-QAW30SL4Rrgfkdrl",color=0xff0000)
+    embed = discord.Embed(title="choco stupid mountain",description="choco stupid mountain",url ,color=0xff0000)
     await ctx.send(embed=embed)
 
 bot.run(token)
