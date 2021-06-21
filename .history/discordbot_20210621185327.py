@@ -26,7 +26,7 @@ async def cmsg(ctx):
 
 @bot.command()
 async def tt(ctx):
-    embed = discord.Embed(title="kazn's TimeTrials list",description="kaznのMK64TAリストです",url = "Kazn's Time Trials playlist:https://youtube.com/playlist?list=PLdGKAlqxxNI4oOn7v2LppK5j_oYJH7Lrf",color=0xff0000)
+    embed = discord.Embed(title="kazn's TimeTrials list",description="kaznのMK",url = "Kazn's Time Trials playlist:https://youtube.com/playlist?list=PLdGKAlqxxNI4oOn7v2LppK5j_oYJH7Lrf",color=0xff0000)
     await ctx.send(embed=embed)
 
 bot.run(token)

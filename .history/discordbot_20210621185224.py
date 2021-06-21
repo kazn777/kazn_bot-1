@@ -26,7 +26,8 @@ async def cmsg(ctx):
 
 @bot.command()
 async def tt(ctx):
-    embed = discord.Embed(title="kazn's TimeTrials list",description="kaznのMK64TAリストです",url = "Kazn's Time Trials playlist:https://youtube.com/playlist?list=PLdGKAlqxxNI4oOn7v2LppK5j_oYJH7Lrf",color=0xff0000)
+    embed = discord.Embed(title="kazn's TimeTrials list",description="",url = "Kazn's Time Trials playlist:https://youtube.com/playlist?list=PLdGKAlqxxNI4oOn7v2LppK5j_oYJH7Lrf",color=0xff0000)
+    embed.add_field(name="longver",value="[longver](https://clips.twitch.tv/DeadNaiveTurnipLeeroyJenkins-oe9egb9VAYg4jzGg)",inline=False)
     await ctx.send(embed=embed)
 
 bot.run(token)
