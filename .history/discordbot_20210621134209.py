@@ -23,7 +23,7 @@ async def cmsg(ctx):
     await ctx.send(embed=embed)
     embed.add_field(name="Choco nice Mountain -> Choco stupid Mountain",value="[CNM -> CSM](https://clips.twitch.tv/BitterObeseFungusPanicBasket-yacmSW8J-Wsb20tr)")
     await ctx.send(embed=embed)
-    embed.add_field(name="Choco nice Mountain",value="[CNM](https://clips.twitch.tv/BetterFastKuduM4xHeh-HhQM5C9nQVjs1QYe)")
+    embed.add_field(name="Choco nice Mountain",value="[CNM -> CSM](https://clips.twitch.tv/BitterObeseFungusPanicBasket-yacmSW8J-Wsb20tr)")
     await ctx.send(embed=embed)
 
 bot.run(token)
