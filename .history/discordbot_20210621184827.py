@@ -25,8 +25,11 @@ async def cmsg(ctx):
     await ctx.send(embed=embed)
 
 @bot.command()
-async def tt(ctx):
-    embed = discord.Embed(title="kazn's TimeTrials list",description="",url = "Kazn's Time Trials playlist:https://youtube.com/playlist?list=PLdGKAlqxxNI4oOn7v2LppK5j_oYJH7Lrf",color=0xff0000)
+async def cmsg(ctx):
+    embed = discord.Embed(title="choco stupid mountain",description="",url = "https://clips.twitch.tv/GoodReliableArmadilloDoggo-QAW30SL4Rrgfkdrl",color=0xff0000)
+    embed.add_field(name="longver",value="[longver](https://clips.twitch.tv/DeadNaiveTurnipLeeroyJenkins-oe9egb9VAYg4jzGg)",inline=False)
+    embed.add_field(name="Choco nice Mountain -> Choco stupid Mountain",value="[CNM -> CSM](https://clips.twitch.tv/BitterObeseFungusPanicBasket-yacmSW8J-Wsb20tr)",inline=False)
+    embed.add_field(name="Choco nice Mountain",value="[CNM](https://clips.twitch.tv/BetterFastKuduM4xHeh-HhQM5C9nQVjs1QYe)",inline=False)
     await ctx.send(embed=embed)
 
 bot.run(token)
