@@ -26,7 +26,7 @@ async def cmsg(ctx):
     embed.add_field(name="Ce_Mec ver",value="[CSM](https://clips.twitch.tv/GentleAltruisticCamelKappaWealth-zYGgXXazVl4hZyee)",inline=False)
     embed.add_field(name="TMP ver",value="[CSM](https://clips.twitch.tv/FunGracefulSparrowRaccAttack-qeFSem4jpPlkoXzi)",inline=False)
     embed.add_field(name="king_kelp CSM comment",value="[CSM](https://clips.twitch.tv/FitSpoopyTaroNerfBlueBlaster-Wkn_pDhjjTQ1P98p)",inline=False)
-    embed.add_field(name="abney reaction",value="[CSM](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)",inline=False)
+    embed.add_field(name="MySong abney reaction",value="[CSM](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)",inline=False)
     await ctx.send(embed=embed)
 
 @bot.command()
