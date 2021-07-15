@@ -22,6 +22,11 @@ async def cmsg(ctx):
     embed.add_field(name="longver",value="[longver](https://clips.twitch.tv/DeadNaiveTurnipLeeroyJenkins-oe9egb9VAYg4jzGg)",inline=False)
     embed.add_field(name="Choco nice Mountain -> Choco stupid Mountain",value="[CNM -> CSM](https://clips.twitch.tv/BitterObeseFungusPanicBasket-yacmSW8J-Wsb20tr)",inline=False)
     embed.add_field(name="Choco nice Mountain",value="[CNM](https://clips.twitch.tv/BetterFastKuduM4xHeh-HhQM5C9nQVjs1QYe)",inline=False)
+    embed.add_field(name="mkdsabel ver",value="[CSM](https://clips.twitch.tv/ToughBenevolentRatBuddhaBar-AiWkoMrPsoSImLYy",inline=False)
+    embed.add_field(name="Ce_Mec ver",value="[CSM](https://clips.twitch.tv/GentleAltruisticCamelKappaWealth-zYGgXXazVl4hZyee)",inline=False)
+    embed.add_field(name="TMP ver",value="[CSM](https://clips.twitch.tv/FunGracefulSparrowRaccAttack-qeFSem4jpPlkoXzi)",inline=False)
+    embed.add_field(name="king_kelp CSM comment",value="[CSM](https://clips.twitch.tv/FitSpoopyTaroNerfBlueBlaster-Wkn_pDhjjTQ1P98p)",inline=False)
+    embed.add_field(name="abney reaction",value="[CSM](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)",inline=False)
     await ctx.send(embed=embed)
 
 @bot.command()
