@@ -16,6 +16,7 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
 
 @bot.command()
+@commands.has_permissions(administrator=True)
 async def database(ctx):
     embed = discord.Embed(title="kazn's google spreadsheets",description="",color=0xff0000)
     embed.add_field(name="MK64 Past events list",value="[link](https://docs.google.com/spreadsheets/d/1OLVssG1cnNiaQas5shl44awqAdrW6ahQbfqpndac3BY/edit#gid=552396019)")
@@ -25,6 +26,7 @@ async def database(ctx):
     await ctx.send(embed=embed)
     
 @bot.command()
+@commands.has_permissions(administrator=True)
 async def cmsg(ctx):
     embed = discord.Embed(title="choco stupid mountain",description="",url = "https://clips.twitch.tv/GoodReliableArmadilloDoggo-QAW30SL4Rrgfkdrl",color=0xff0000)
     embed.add_field(name="longver",value="[link](https://clips.twitch.tv/DeadNaiveTurnipLeeroyJenkins-oe9egb9VAYg4jzGg)")
