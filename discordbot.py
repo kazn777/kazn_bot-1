@@ -35,8 +35,9 @@ async def cmsg(ctx):
     embed.add_field(name="mkdsabel ver",value="[link](https://clips.twitch.tv/ToughBenevolentRatBuddhaBar-AiWkoMrPsoSImLYy)")
     embed.add_field(name="Ce_Mec ver",value="[link](https://clips.twitch.tv/GentleAltruisticCamelKappaWealth-zYGgXXazVl4hZyee)")
     embed.add_field(name="TMP ver",value="[link](https://clips.twitch.tv/FunGracefulSparrowRaccAttack-qeFSem4jpPlkoXzi)")
-    embed.add_field(name="MySong abney reaction",value="[link](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)")
+    embed.add_field(name="MySong listen abney",value="[link](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)")
     embed.add_field(name="Mysong listen MR",value="[link](https://clips.twitch.tv/HardEnticingGrouseCoolStoryBob-D-GF4BDJaNoBV-mT)")
+    embed.add_field(name="AAG ver",value="[link](https://clips.twitch.tv/ThirstySinglePlumberNinjaGrumpy-BRHRAxS8R-UGaEOB)")
     await ctx.send(embed=embed)
    
 
