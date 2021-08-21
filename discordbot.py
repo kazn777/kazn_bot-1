@@ -38,6 +38,7 @@ async def cmsg(ctx):
     embed.add_field(name="MySong listen abney",value="[link](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)")
     embed.add_field(name="Mysong listen MR",value="[link](https://clips.twitch.tv/HardEnticingGrouseCoolStoryBob-D-GF4BDJaNoBV-mT)")
     embed.add_field(name="AAG ver",value="[link](https://clips.twitch.tv/ThirstySinglePlumberNinjaGrumpy-BRHRAxS8R-UGaEOB)")
+    embed.add_field(name="Vocaloid ver",value="[link](https://twitter.com/i/status/1428988200219942917)")
     await ctx.send(embed=embed)
    
 
