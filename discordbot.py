@@ -33,7 +33,7 @@ async def cmsg(ctx):
     embed.add_field(name="Choco nice Mountain",value="[link](https://clips.twitch.tv/BetterFastKuduM4xHeh-HhQM5C9nQVjs1QYe)")
     embed.add_field(name="CNM-> CSM",value="[link](https://clips.twitch.tv/BigCovertGalagoOSsloth-b1TaEc6IhKubSK27)")
     embed.add_field(name="mkdsabel ver",value="[link](https://clips.twitch.tv/ToughBenevolentRatBuddhaBar-AiWkoMrPsoSImLYy)")
-    embed.add_field(name="Ce_Mec ver",value="[link](https://clips.twitch.tv/GentleAltruisticCamelKappaWealth-zYGgXXazVl4hZyee)")
+    embed.add_field(name="Ce_Mec ver",value="[link](https://clips.twitch.tv/TenaciousMiniatureGrasshopperItsBoshyTime-KYBQtJg_OGg2WD0E)")
     embed.add_field(name="TMP ver",value="[link](https://clips.twitch.tv/AdventurousFaithfulDogPMSTwin-bwqUX6KLpebt65ST)")
     embed.add_field(name="MySong listen abney",value="[link](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)")
     embed.add_field(name="Mysong listen MR",value="[link](https://clips.twitch.tv/HardEnticingGrouseCoolStoryBob-D-GF4BDJaNoBV-mT)")
