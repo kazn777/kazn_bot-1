@@ -31,7 +31,7 @@ async def cmsg(ctx):
     embed = discord.Embed(title="choco stupid mountain",description="",url = "https://www.twitch.tv/videos/1099447026",color=0xff0000)
     embed.add_field(name="2nd half part",value="[link](https://clips.twitch.tv/SnappyWonderfulToothArgieB8-FwOP3THV_Nw2pTHX)")
     embed.add_field(name="Choco nice Mountain",value="[link](https://clips.twitch.tv/BetterFastKuduM4xHeh-HhQM5C9nQVjs1QYe)")
-    embed.add_field(name="CNM-> CSM",value="[link](https://clips.twitch.tv/BigCovertGalagoOSsloth-b1TaEc6IhKubSK27)")
+    embed.add_field(name="CNM-> CSM",value="[link](https://clips.twitch.tv/HelpfulCovertPepperFunRun-bfpQR7B210hy2qTq)")
     embed.add_field(name="mkdsabel ver",value="[link](https://clips.twitch.tv/ToughBenevolentRatBuddhaBar-AiWkoMrPsoSImLYy)")
     embed.add_field(name="Ce_Mec ver",value="[link](https://clips.twitch.tv/TenaciousMiniatureGrasshopperItsBoshyTime-KYBQtJg_OGg2WD0E)")
     embed.add_field(name="TMP ver",value="[link](https://clips.twitch.tv/DrabPoorConsoleCharlietheUnicorn-3_6qn-rEYNq5csDt)")
