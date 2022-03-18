@@ -37,6 +37,7 @@ async def cmsg(ctx):
     embed.add_field(name="TMP ver",value="[link](https://clips.twitch.tv/DrabPoorConsoleCharlietheUnicorn-3_6qn-rEYNq5csDt)")
     embed.add_field(name="AAG ver",value="[link](https://clips.twitch.tv/CrowdedObservantNostrilPJSugar-Ib0Ouxzr1oMY7WZg)")
     embed.add_field(name="Hattok ver",value="[link](https://clips.twitch.tv/HilariousEsteemedSrirachaPJSalt-nZ9p81tVAfbj0XRs)")
+    embed.add_field(name="mr_onkong ver",value="[link](https://clips.twitch.tv/CrackyEmpathicDotterelWOOP-PP99S2fJqf_Zoo52)")
     embed.add_field(name="Vocaloid ver",value="[link](https://twitter.com/i/status/1428988200219942917)")
     embed.add_field(name="MySong listen abney",value="[link](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)")
     embed.add_field(name="Mysong listen MR",value="[link](https://clips.twitch.tv/HardEnticingGrouseCoolStoryBob-D-GF4BDJaNoBV-mT)")
