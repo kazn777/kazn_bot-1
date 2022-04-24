@@ -28,7 +28,7 @@ async def database(ctx):
 @bot.command()
 @commands.has_permissions(administrator=True)
 async def cmsg(ctx):
-    embed = discord.Embed(title="choco stupid mountain",description="",url = "https://www.twitch.tv/videos/1099447026",color=0xff0000)
+    embed = discord.Embed(title="choco stupid mountain",description="",url = "https://www.twitch.tv/videos/1461531358",color=0xff0000)
     embed.add_field(name="2nd half part",value="[link](https://clips.twitch.tv/SnappyWonderfulToothArgieB8-FwOP3THV_Nw2pTHX)")
     embed.add_field(name="Choco nice Mountain",value="[link](https://clips.twitch.tv/BetterFastKuduM4xHeh-HhQM5C9nQVjs1QYe)")
     embed.add_field(name="CNM-> CSM",value="[link](https://clips.twitch.tv/HelpfulCovertPepperFunRun-bfpQR7B210hy2qTq)")
@@ -41,9 +41,8 @@ async def cmsg(ctx):
     embed.add_field(name="Thomas ver",value="[link](https://clips.twitch.tv/SmoggyBumblingWrenTwitchRaid-D4i07WLXh3LxUs7j)")
     embed.add_field(name="Vocaloid ver",value="[link](https://twitter.com/i/status/1428988200219942917)")
     embed.add_field(name="MySong listen abney",value="[link](https://clips.twitch.tv/StylishWittyPigANELE-XqeuXk2RjskQSS1f)")
-    embed.add_field(name="Mysong listen MR",value="[link](https://clips.twitch.tv/HardEnticingGrouseCoolStoryBob-D-GF4BDJaNoBV-mT)")
     await ctx.send(embed=embed)
    
-
+    ;embed.add_field(name="Mysong listen MR",value="[link](https://clips.twitch.tv/HardEnticingGrouseCoolStoryBob-D-GF4BDJaNoBV-mT)")
 
 bot.run(token)
